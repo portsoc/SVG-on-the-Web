@@ -1,0 +1,187 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 1280 1024"
+  width="500"
+  height="500"
+  version="1.1"
+  >
+  <style>
+    svg {
+        stroke-width: 5;
+        fill: white;
+        stroke: black;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .bg {
+        stroke-width: 15;
+        stroke: white;
+    }
+    .person { opacity: 0; }
+
+    .worker     { opacity: 0; }
+    .worker.one { opacity: 1; }
+    .worker.w1  { opacity: 0; }
+    .worker.w2  { opacity: 0; }
+    .worker.w3  { opacity: 0; }
+  </style>
+
+  <defs>
+    <g id="person-at-desk" class="normal">
+      <g class="bg"><use xlink:href="#person-at-desk-actual-drawing"/></g>
+      <g id="person-at-desk-actual-drawing">
+        <!-- person - lower body  -->
+        <!--     leg  corner  far-corner middle  body-offset shoulders body right leg                                     left leg -->
+        <path d="M0,0 m0,-150 m120,-60   m150,75 m30,-15     m0,-50    v100 l-100,20 v100 l-20,10 l20,-10 v-100 l100,-20  l-40,50 v100 l-20,10 l20,-10 v-100 l40,-50"/>
+
+        <!-- desk -->
+        <!--     leg  leg   -->
+        <path d="M0,0 v-150 l120,60 v30 v-30 l180,90 v150 v-150 l120,-60 v150 v-150 l-300,-150 l-120,60"/>
+
+        <!-- monitor base -->
+        <!--     leg  corner  middle-mon100 edge-offset middley-base40 depth-offset -->
+        <path d="M0,0 m0,-150 m100,50       m30,-15     m30,15         m-10,5       l40,20 l20,-10 l-40,-20 l-20,10"/>
+
+        <!-- keyboard -->
+        <!--     leg  corner  middle-mon100 depth-offset -->
+        <path d="M0,0 m0,-150 m100,50       m70,-35      l100,50 l40,-20 l-100,-50 l-40,20"/>
+
+        <!-- person - upper body -->
+        <!--     leg  corner  far-corner middle  body-offset shoulders neck  head-->
+        <path d="M0,0 m0,-150 m120,-60   m150,75 m30,-15     m0,-50    v-10  a 1,1 0 0,0 -20,-70 a 1,1 0 0,0 20,70 "/>
+        <!--     leg  corner  far-corner middle  body-offset shoulders left arm                         right arm -->
+        <path d="M0,0 m0,-150 m120,-60   m150,75 m30,-15     m0,-50    l10,65 l-50,25 l50,-25 l-10,-65  l-50,35 l-50,25 l50,-25 l50,-35"/>
+
+        <!-- monitor -->
+        <!--     leg  corner  middle-mon100 edge-offset height  -->
+        <path d="M0,0 m0,-150 m100,50       m30,-15     m0,-10 v-100 l100,50 v100 l-100,-50"/>
+        <!-- monitor support -->
+        <!--     leg  corner  middle-mon100 edge-offset height middley-stand28 middlex-stand28 depth-offset -->
+        <path d="M0,0 m0,-150 m100,50       m30,-15     m0,-10 m0,-36          m36,18          m-10,5       v46 l28,14 v-46 v-28 l-28,-14 v28"/>
+      </g>
+    </g>
+    <g id="person-by-desk" class='normal'>
+      <g class="bg"><use xlink:href="#person-by-desk-actual-drawing"/></g>
+      <g id="person-by-desk-actual-drawing">
+        <!-- person - lower body  -->
+        <!--     leg  corner  middle  body-offset shoulders body left leg                          right leg -->
+        <path d="M0,0 m0,-150 m150,75 m-100,50    m0,-120   v100 l-30,155 l20,-10 l-20,10 l30,-155 l30,185 l20,-10 l-20,10 l-30,-185"/>
+        <!-- person - upper body -->
+        <!--     leg  corner  middle  body-offset shoulders neck  head-->
+        <path d="M0,0 m0,-150 m150,75 m-100,50    m0,-120   v-10  a 1,1 0 0,0 10,-73 a 1,1 0 0,0 -10,73 "/>
+        <!--     leg  corner  middle  body-offset shoulders left arm -->
+        <path d="M0,0 m0,-150 m150,75 m-100,50    m0,-120   l-30,120"/>
+
+        <!-- file in hand -->
+        <!--     leg  corner  middle  body-offset shoulders right arm  file      -->
+        <path d="M0,0 m0,-150 m150,75 m-100,50    m0,-120   l30,150    l30,-15 v70 l-60,30 v-70 l30,-15"/>
+      </g>
+    </g>
+  </defs>
+
+  <!-- each desk is -120,60 px offset, X between -100 and 1280, Y between -100 and 1100 -->
+  <g class="worker" transform="translate(536,-62)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(416,-2)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(296,58)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(176,118)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(56,178)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(-64,238)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(-184,298)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <!-- block offset by 156,78 px -->
+  <g class="worker" transform="translate(812,-44)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(692,16)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(572,76)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(452,136)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(332,196)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker q3" transform="translate(212,256)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(92,316)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(-28,376)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+
+  <!-- block offset by 288x144 px - forming an aisle -->
+  <g class="worker" transform="translate(1100,100)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(980,160)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(860,220)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(740,280)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(620,340)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker q2 w2" transform="translate(500,400)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker w1" transform="translate(380,460)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker w3" transform="translate(260,520)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <g class="worker" transform="translate(20,640)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(-100,700)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <!-- block offset by 156,78 px -->
+  <g class="worker" transform="translate(1136,238)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(1016,298)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(896,358)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(776,418)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker q q2 w2" transform="translate(656,478)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker one" transform="translate(536,538)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker w3" transform="translate(416,598)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <g class="worker" transform="translate(176,718)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(56,778)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(-64,838)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(-184,898)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <!-- block offset by 288x144 px - forming an aisle -->
+  <g class="worker" transform="translate(1184,502)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(1064,562)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker q3" transform="translate(944,622)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker w3" transform="translate(824,682)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker w3" transform="translate(704,742)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <g class="worker" transform="translate(464,862)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(344,922)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(224,982)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(104,1042)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(-16,1102)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <!-- block offset by 156,78 px -->
+  <g class="worker" transform="translate(1220,640)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(1100,700)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(980,760)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(860,820)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <g class="worker" transform="translate(620,940)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(500,1000)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(380,1060)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(260,1120)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <!-- block offset by 288x144 px - forming an aisle -->
+  <g class="worker" transform="translate(1268,904)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(1148,964)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <g class="worker" transform="translate(908,1084)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+  <g class="worker" transform="translate(788,1144)scale(.5,.5)"><use xlink:href="#person-at-desk"/></g>
+
+  <g class="person p1" transform="translate(656,478)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person p2" transform="translate(536,538)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person p2" transform="translate(476,568)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person p2" transform="translate(416,598)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person p2" transform="translate(356,628)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person p2" transform="translate(296,658)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person p2" transform="translate(236,688)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person p2" transform="translate(176,718)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+
+  <g class="person q3" transform="translate(212,256)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q3" transform="translate(102,311)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+
+  <g class="person q2" transform="translate(500,400)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q2" transform="translate(380,460)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q2" transform="translate(320,490)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q3" transform="translate(200,550)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+
+  <g class="person q2" transform="translate(656,478)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q2" transform="translate(536,538)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q2" transform="translate(476,568)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q3" transform="translate(416,598)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+
+  <g class="person q3" transform="translate(944,622)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q3" transform="translate(824,682)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+  <g class="person q3" transform="translate(764,712)scale(.5,.5)"><use xlink:href="#person-by-desk"/></g>
+</svg>
