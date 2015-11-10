@@ -37,6 +37,19 @@
     opacity: 1;
   }
 
+  #list.step-1 li:nth-of-type(1),
+  #list.step-2 li:nth-of-type(2),
+  #list.step-3 li:nth-of-type(3),
+  #list.step-4 li:nth-of-type(4),
+  #list.step-5 li:nth-of-type(5),
+  #list.step-6 li:nth-of-type(6),
+  #list.step-7 li:nth-of-type(7),
+  #list.step-8 li:nth-of-type(8),
+  #list.step-9 li:nth-of-type(9),
+  _ {
+    background: #adf;
+  }
+
 
   ul {
     display: block;
@@ -57,16 +70,16 @@
 
 <h1>Stick people working</h1>
 
-<ul>
-  <li onMouseOver="select(1)">One
-  <li onMouseOver="select(2)">Two
-  <li onMouseOver="select(3)">A few
-  <li onMouseOver="select(4)">More
-  <li onMouseOver="select(5)">Many
-  <li onMouseOver="select(6)">Clerk
-  <li onMouseOver="select(7)">Q
-  <li onMouseOver="select(8)">Qs
-  <li onMouseOver="select(9)">Qs 2
+<ul id="list" class="step-1">
+  <li onClick="select(1)">One
+  <li onClick="select(2)">Two
+  <li onClick="select(3)">A few
+  <li onClick="select(4)">More
+  <li onClick="select(5)">Many
+  <li onClick="select(6)">Clerk
+  <li onClick="select(7)">Q
+  <li onClick="select(8)">Qs
+  <li onClick="select(9)">Qs 2
 </ul>
 
 <svg
@@ -244,5 +257,7 @@
   function select(i) {
     var img = document.querySelector("#image")
     img.setAttribute("class", "step-" + i)
+    var list = document.querySelector("#list")
+    list.setAttribute("class", "step-" + i);
   }
 </script>

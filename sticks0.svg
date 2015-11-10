@@ -8,19 +8,22 @@
   >
   <style>
     svg {
-        stroke-width: 15;
-        fill: white;
+        stroke-width: 16;
         stroke: black;
+        fill: white;
         stroke-linecap: round;
         stroke-linejoin: round;
     }
 
     line { stroke: green; }
+
     circle { fill: yellow; stroke: red; }
 
     .thick { stroke-width: 40; }
 
   </style>
+
+  <rect x="0" y="0" width="500" height="500"/>
 
   <circle cx="350" cy="250" r="100"/>
   <circle class="thick" cx="250" cy="250" r="100"/>

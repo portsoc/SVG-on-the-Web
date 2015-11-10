@@ -1,0 +1,139 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="-20 -280 300 300"
+  width="300"
+  height="300"
+  version="1.1"
+  >
+  <style>
+    svg {
+        stroke-width: 1px;
+        fill: white;
+        stroke: black;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    path { fill: none; }
+
+    .axis {
+      stroke: black;
+      stroke-width: 2px;
+    }
+
+    text {
+      font-family: "Verdana";
+      font-size: 20px;
+      stroke-width: 0;
+    }
+
+    .pompey { stroke: #468; }
+    .york { stroke: #846; }
+
+    text.pompey { fill: #468; }
+    text.york { fill: #846; }
+
+    text.axis {
+      font-size: 10px;
+      stroke-width: 0;
+      fill: black;
+    }
+  </style>
+
+  <line class="axis" x1="-10" y1="0" x2="230" y2="0"/>
+  <line class="axis" x1="0" y1="10" x2="0" y2="-260"/>
+  <path class="axis" d="M 0,5 m 50,-10 v 10 m 50,-10 v 10 m 50,-10 v 10 m 50,-10 v 10 "/>
+  <path class="axis" d="M 5,0 m-10,-50 h 10 m-10,-50 h 10 m-10,-50 h 10 m-10,-50 h 10 m-10,-50 h 10 "/>
+
+<!-- data from https://en.wikipedia.org/wiki/Portsmouth#Demography and https://en.wikipedia.org/wiki/York#Population_change :
+pompey:
+1801 32160
+1851 72096
+1901 188133
+1951 233545
+1961 215077
+1971 197431
+1981 175382
+1991 177142
+2001 186700
+2011 205400
+
+york:
+1801 24080
+1811 27486
+1821 30913
+1831 36340
+1841 40337
+1851 49899
+1861 58632
+1871 67364
+1881 76097
+1891 81802
+1901 90665
+1911 100487
+1921 106278
+1931 112402
+1941 123227
+1951 135093
+1961 144585
+1971 154749
+1981 158170
+1991 172847
+2001 181131
+2011 202400
+-->
+
+  <text x="1" y="10" class="axis"> 1801 </text>
+  <text x="51" y="10" class="axis"> 1851 </text>
+  <text x="101" y="10" class="axis"> 1901 </text>
+  <text x="151" y="10" class="axis"> 1951 </text>
+  <text x="201" y="10" class="axis"> 2001 </text>
+
+  <text x="1" y="-52" class="axis"> 50k </text>
+  <text x="1" y="-102" class="axis"> 100k </text>
+  <text x="1" y="-152" class="axis"> 150k </text>
+  <text x="1" y="-202" class="axis"> 200k </text>
+  <text x="1" y="-252" class="axis"> 250k </text>
+
+  <text x="200" y="-260" class="pompey" > Pompey </text>
+  <text x="200" y="-235" class="york" > York </text>
+
+  <path class="pompey" d="M 1,-32.160 L 51,-72.096 L 101,-188.133 L 151,-233.545 L 161,-215.077 L 171,-197.431 L 181,-175.382 L 191,-177.142 L 201,-186.700 L 211,-205.400"/>
+  <path class="york" d="M 1,-24.080 L 11,-27.486 L 21,-30.913 L 31,-36.340 L 41,-40.337 L 51,-49.899 L 61,-58.632 L 71,-67.364 L 81,-76.097 L 91,-81.802 L 101,-90.665 L 111,-100.487 L 121,-106.278 L 131,-112.402 L 141,-123.227 L 151,-135.093 L 161,-144.585 L 171,-154.749 L 181,-158.170 L 191,-172.847 L 201,-181.131 L 211,-202.400"/>
+
+  <circle class="york"   cx="1"   cy="-024.080" r="3"/>
+  <circle class="york"   cx="11"  cy="-027.486" r="3"/>
+  <circle class="york"   cx="21"  cy="-030.913" r="3"/>
+  <circle class="york"   cx="31"  cy="-036.340" r="3"/>
+  <circle class="york"   cx="41"  cy="-040.337" r="3"/>
+  <circle class="york"   cx="51"  cy="-049.899" r="3"/>
+  <circle class="york"   cx="61"  cy="-058.632" r="3"/>
+  <circle class="york"   cx="71"  cy="-067.364" r="3"/>
+  <circle class="york"   cx="81"  cy="-076.097" r="3"/>
+  <circle class="york"   cx="91"  cy="-081.802" r="3"/>
+  <circle class="york"   cx="101" cy="-090.665" r="3"/>
+  <circle class="york"   cx="111" cy="-100.487" r="3"/>
+  <circle class="york"   cx="121" cy="-106.278" r="3"/>
+  <circle class="york"   cx="131" cy="-112.402" r="3"/>
+  <circle class="york"   cx="141" cy="-123.227" r="3"/>
+  <circle class="york"   cx="151" cy="-135.093" r="3"/>
+  <circle class="york"   cx="161" cy="-144.585" r="3"/>
+  <circle class="york"   cx="171" cy="-154.749" r="3"/>
+  <circle class="york"   cx="181" cy="-158.170" r="3"/>
+  <circle class="york"   cx="191" cy="-172.847" r="3"/>
+  <circle class="york"   cx="201" cy="-181.131" r="3"/>
+  <circle class="york"   cx="211" cy="-202.400" r="3"/>
+
+  <circle class="pompey" cx="1"   cy="-032.160" r="3"/>
+  <circle class="pompey" cx="51"  cy="-072.096" r="3"/>
+  <circle class="pompey" cx="101" cy="-188.133" r="3"/>
+  <circle class="pompey" cx="151" cy="-233.545" r="3"/>
+  <circle class="pompey" cx="161" cy="-215.077" r="3"/>
+  <circle class="pompey" cx="171" cy="-197.431" r="3"/>
+  <circle class="pompey" cx="181" cy="-175.382" r="3"/>
+  <circle class="pompey" cx="191" cy="-177.142" r="3"/>
+  <circle class="pompey" cx="201" cy="-186.700" r="3"/>
+  <circle class="pompey" cx="211" cy="-205.400" r="3"/>
+
+</svg>

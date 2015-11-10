@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" version="1.1">
- <g id="g4" fill="none" transform="matrix(1.7656463,0,0,1.7656463,324.90716,255.00942)">
+ <g id="g4" fill="none" transform="matrix(1.7656463,0,0,1.7656463,324.90716,255.00942)"
+    onclick="click()">
   <g id="g6" stroke-width="0.17200001" stroke="#000" fill="#FFF">
    <path id="path8" d="m-122.3,84.285s0.1,1.894-0.73,1.875c-0.82-0.019-17.27-48.094-37.8-45.851,0,0,17.78-7.353,38.53,43.976z"/>
   </g>
@@ -722,4 +723,145 @@
    <path id="path964" d="m20.5,344.5s1.5-11-10,2"/>
   </g>
  </g>
+
+ <view id="eye"    viewBox="380.00 279.00  52.00  41.00"/>
+ <view id="eye1"   viewBox="376.20 276.21  60.48  49.59"/>
+ <view id="eye2"   viewBox="372.40 273.42  68.96  58.18"/>
+ <view id="eye3"   viewBox="368.60 270.63  77.44  66.77"/>
+ <view id="eye4"   viewBox="364.80 267.84  85.92  75.36"/>
+ <view id="eye5"   viewBox="361.00 265.05  94.40  83.95"/>
+ <view id="eye6"   viewBox="357.20 262.26 102.88  92.54"/>
+ <view id="eye7"   viewBox="353.40 259.47 111.36 101.13"/>
+ <view id="eye8"   viewBox="349.60 256.68 119.84 109.72"/>
+ <view id="eye9"   viewBox="345.80 253.89 128.32 118.31"/>
+ <view id="eye10"  viewBox="342.00 251.10 136.80 126.90"/>
+ <view id="eye11"  viewBox="338.20 248.31 145.28 135.49"/>
+ <view id="eye12"  viewBox="334.40 245.52 153.76 144.08"/>
+ <view id="eye13"  viewBox="330.60 242.73 162.24 152.67"/>
+ <view id="eye14"  viewBox="326.80 239.94 170.72 161.26"/>
+ <view id="eye15"  viewBox="323.00 237.15 179.20 169.85"/>
+ <view id="eye16"  viewBox="319.20 234.36 187.68 178.44"/>
+ <view id="eye17"  viewBox="315.40 231.57 196.16 187.03"/>
+ <view id="eye18"  viewBox="311.60 228.78 204.64 195.62"/>
+ <view id="eye19"  viewBox="307.80 225.99 213.12 204.21"/>
+ <view id="eye20"  viewBox="304.00 223.20 221.60 212.80"/>
+ <view id="eye21"  viewBox="300.20 220.41 230.08 221.39"/>
+ <view id="eye22"  viewBox="296.40 217.62 238.56 229.98"/>
+ <view id="eye23"  viewBox="292.60 214.83 247.04 238.57"/>
+ <view id="eye24"  viewBox="288.80 212.04 255.52 247.16"/>
+ <view id="eye25"  viewBox="285.00 209.25 264.00 255.75"/>
+ <view id="eye26"  viewBox="281.20 206.46 272.48 264.34"/>
+ <view id="eye27"  viewBox="277.40 203.67 280.96 272.93"/>
+ <view id="eye28"  viewBox="273.60 200.88 289.44 281.52"/>
+ <view id="eye29"  viewBox="269.80 198.09 297.92 290.11"/>
+ <view id="eye30"  viewBox="266.00 195.30 306.40 298.70"/>
+ <view id="eye31"  viewBox="262.20 192.51 314.88 307.29"/>
+ <view id="eye32"  viewBox="258.40 189.72 323.36 315.88"/>
+ <view id="eye33"  viewBox="254.60 186.93 331.84 324.47"/>
+ <view id="eye34"  viewBox="250.80 184.14 340.32 333.06"/>
+ <view id="eye35"  viewBox="247.00 181.35 348.80 341.65"/>
+ <view id="eye36"  viewBox="243.20 178.56 357.28 350.24"/>
+ <view id="eye37"  viewBox="239.40 175.77 365.76 358.83"/>
+ <view id="eye38"  viewBox="235.60 172.98 374.24 367.42"/>
+ <view id="eye39"  viewBox="231.80 170.19 382.72 376.01"/>
+ <view id="eye40"  viewBox="228.00 167.40 391.20 384.60"/>
+ <view id="eye41"  viewBox="224.20 164.61 399.68 393.19"/>
+ <view id="eye42"  viewBox="220.40 161.82 408.16 401.78"/>
+ <view id="eye43"  viewBox="216.60 159.03 416.64 410.37"/>
+ <view id="eye44"  viewBox="212.80 156.24 425.12 418.96"/>
+ <view id="eye45"  viewBox="209.00 153.45 433.60 427.55"/>
+ <view id="eye46"  viewBox="205.20 150.66 442.08 436.14"/>
+ <view id="eye47"  viewBox="201.40 147.87 450.56 444.73"/>
+ <view id="eye48"  viewBox="197.60 145.08 459.04 453.32"/>
+ <view id="eye49"  viewBox="193.80 142.29 467.52 461.91"/>
+ <view id="eye50"  viewBox="190.00 139.50 476.00 470.50"/>
+ <view id="eye51"  viewBox="186.20 136.71 484.48 479.09"/>
+ <view id="eye52"  viewBox="182.40 133.92 492.96 487.68"/>
+ <view id="eye53"  viewBox="178.60 131.13 501.44 496.27"/>
+ <view id="eye54"  viewBox="174.80 128.34 509.92 504.86"/>
+ <view id="eye55"  viewBox="171.00 125.55 518.40 513.45"/>
+ <view id="eye56"  viewBox="167.20 122.76 526.88 522.04"/>
+ <view id="eye57"  viewBox="163.40 119.97 535.36 530.63"/>
+ <view id="eye58"  viewBox="159.60 117.18 543.84 539.22"/>
+ <view id="eye59"  viewBox="155.80 114.39 552.32 547.81"/>
+ <view id="eye60"  viewBox="152.00 111.60 560.80 556.40"/>
+ <view id="eye61"  viewBox="148.20 108.81 569.28 564.99"/>
+ <view id="eye62"  viewBox="144.40 106.02 577.76 573.58"/>
+ <view id="eye63"  viewBox="140.60 103.23 586.24 582.17"/>
+ <view id="eye64"  viewBox="136.80 100.44 594.72 590.76"/>
+ <view id="eye65"  viewBox="133.00  97.65 603.20 599.35"/>
+ <view id="eye66"  viewBox="129.20  94.86 611.68 607.94"/>
+ <view id="eye67"  viewBox="125.40  92.07 620.16 616.53"/>
+ <view id="eye68"  viewBox="121.60  89.28 628.64 625.12"/>
+ <view id="eye69"  viewBox="117.80  86.49 637.12 633.71"/>
+ <view id="eye70"  viewBox="114.00  83.70 645.60 642.30"/>
+ <view id="eye71"  viewBox="110.20  80.91 654.08 650.89"/>
+ <view id="eye72"  viewBox="106.40  78.12 662.56 659.48"/>
+ <view id="eye73"  viewBox="102.60  75.33 671.04 668.07"/>
+ <view id="eye74"  viewBox=" 98.80  72.54 679.52 676.66"/>
+ <view id="eye75"  viewBox=" 95.00  69.75 688.00 685.25"/>
+ <view id="eye76"  viewBox=" 91.20  66.96 696.48 693.84"/>
+ <view id="eye77"  viewBox=" 87.40  64.17 704.96 702.43"/>
+ <view id="eye78"  viewBox=" 83.60  61.38 713.44 711.02"/>
+ <view id="eye79"  viewBox=" 79.80  58.59 721.92 719.61"/>
+ <view id="eye80"  viewBox=" 76.00  55.80 730.40 728.20"/>
+ <view id="eye81"  viewBox=" 72.20  53.01 738.88 736.79"/>
+ <view id="eye82"  viewBox=" 68.40  50.22 747.36 745.38"/>
+ <view id="eye83"  viewBox=" 64.60  47.43 755.84 753.97"/>
+ <view id="eye84"  viewBox=" 60.80  44.64 764.32 762.56"/>
+ <view id="eye85"  viewBox=" 57.00  41.85 772.80 771.15"/>
+ <view id="eye86"  viewBox=" 53.20  39.06 781.28 779.74"/>
+ <view id="eye87"  viewBox=" 49.40  36.27 789.76 788.33"/>
+ <view id="eye88"  viewBox=" 45.60  33.48 798.24 796.92"/>
+ <view id="eye89"  viewBox=" 41.80  30.69 806.72 805.51"/>
+ <view id="eye90"  viewBox=" 38.00  27.90 815.20 814.10"/>
+ <view id="eye91"  viewBox=" 34.20  25.11 823.68 822.69"/>
+ <view id="eye92"  viewBox=" 30.40  22.32 832.16 831.28"/>
+ <view id="eye93"  viewBox=" 26.60  19.53 840.64 839.87"/>
+ <view id="eye94"  viewBox=" 22.80  16.74 849.12 848.46"/>
+ <view id="eye95"  viewBox=" 19.00  13.95 857.60 857.05"/>
+ <view id="eye96"  viewBox=" 15.20  11.16 866.08 865.64"/>
+ <view id="eye97"  viewBox=" 11.40   8.37 874.56 874.23"/>
+ <view id="eye98"  viewBox="  7.60   5.58 883.04 882.82"/>
+ <view id="eye99"  viewBox="  3.80   2.79 891.52 891.41"/>
+ <view id="eye100" viewBox="     0      0 900.00 900.00"/>
+
+  <style>
+    #g4 g {
+      transition: 0s;
+      transform: scale(1);
+    }
+    #g4.zooming g {
+      transition: 1s ease-out;
+    }
+    #g4.zooming.zoomed  g {
+      transition: all 5s cubic-bezier(.3,0,.3,1);
+      transform: translate(42px, 20.5px) scale(.044) ;
+    }
+    <view id="eye"    viewBox="380.00 279.00  52.00  41.00"/>
+  </style>
+  <script>
+    'use strict';
+
+    var g4 = document.getElementById('g4');
+
+    function setZooming() {
+      if (window.location.hash === '#eye') {
+        g4.classList.add('zooming');
+      } else {
+        g4.classList.remove('zooming');
+      }
+    }
+
+    setZooming();
+    window.addEventListener('hashchange', setZooming);
+
+    function click() {
+      if (g4.classList.contains('zoomed')) {
+        g4.classList.remove('zoomed');
+      } else {
+        g4.classList.add('zoomed');
+      }
+    }
+  </script>
 </svg>

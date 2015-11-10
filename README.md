@@ -1,8 +1,13 @@
 SVG on the Web
 ====
 
-1. What is SVG?
+1. scalable vector graphics (SVG)
+  - image tech is cool
+
+
+- What is SVG?
   - picture of an awesome tiger, huge tiger.svg from http://commons.wikimedia.org/wiki/File:Ghostscript_Tiger.svg
+    - tiger.svg#eye
   - zoom out
   - how big is the file? 69k
   - vector vs bitmap
@@ -39,3 +44,14 @@ SVG on the Web
 - Embedding in CSS (to be done)
   - a little star
   - CSS puts it where it wants
+- why svg:
+  - scalability of vector graphics
+  - size of image
+  - css styling
+  - generating of graphics, e.g. charts
+- diagram
+  - get population data for Portsmouth, York from wikipedia
+  - only from 1801
+- todo:
+  - graceful degradation
+  - using svg for diagrams
