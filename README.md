@@ -1,9 +1,31 @@
 SVG on the Web
 ====
 
-1. scalable vector graphics (SVG)
-  - image tech is cool
+0. prep
+  - tab with tiger bitmap
+  - tab with tiger.svg#eye
+  - tab with tiger.svg
 
+1. scalable vector graphics
+  - image tech is cool - png, jpg...
+  - but normal pictures don't scale well
+    - either take too much space for the resolution,
+    - or have insufficient resolution
+  - problem with unexpected sizes for pictures
+    - we want to print a picture
+    - we want to use it as a little icon
+  - problem with unexpectedly high/low res displays
+    - 400+ dpi phones
+    - 200+ dpi "retina" screens
+    - 100 dpi normal screens
+    - it's a bother to cater for everything
+  - therefore vector graphics
+    - not "this pixel has this color"
+    - rather "draw this curve from here to here"
+    - good for drawings/paintings, not photographs
+      - look at your computer - mostly drawings, few photos
+      - show atom icon on disk, 1.2M, 1024x1024 - 3in print
+    - similar to old fonts vs new ones
 
 - What is SVG?
   - picture of an awesome tiger, huge tiger.svg from http://commons.wikimedia.org/wiki/File:Ghostscript_Tiger.svg

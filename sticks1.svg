@@ -15,6 +15,10 @@
         stroke-linejoin: round;
     }
 
+    .arm { stroke: #0d0; }
+    .leg { stroke: #f00; }
+    .head { fill: #6df; }
+
   </style>
 
   <circle cx="250" cy="100" r="60"/>
