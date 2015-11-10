@@ -5,6 +5,7 @@ SVG on the Web
   - tab with tiger bitmap
   - tab with tiger.svg#eye
   - tab with tiger.svg
+  - editor with sticks1.svg - close fold on <style>
 
 1. scalable vector graphics
   - image tech is cool - png, jpg...
