@@ -5,9 +5,10 @@ SVG on the Web
   - tab with tiger bitmap
   - tab with tiger.svg#eye
   - tab with tiger.svg
-  - editor with sticks1.svg - close fold on <style>
+  - editor with sticks1.svg - close fold on `<style>`
 
-1. scalable vector graphics
+
+2. scalable vector graphics
   - image tech is cool - png, jpg...
   - but normal pictures don't scale well
     - either take too much space for the resolution,
@@ -27,6 +28,7 @@ SVG on the Web
       - look at your computer - mostly drawings, few photos
       - show atom icon on disk, 1.2M, 1024x1024 - 3in print
     - similar to old fonts vs new ones
+
 
 - What is SVG?
   - picture of an awesome tiger, huge tiger.svg from http://commons.wikimedia.org/wiki/File:Ghostscript_Tiger.svg
