@@ -80,3 +80,14 @@ SVG on the Web
 - todo:
   - graceful degradation
   - using svg for diagrams
+
+
+- next time:
+  - show a title (SVG) and the expansion of it
+  - show the spec
+  - show the coordinate system
+    - this can be tested - given this code, which picture do you think will come out?
+  - start with stick figures with inline style: `<line stroke=...>` and then move on to using CSS, separating style from content
+  - make sure to show :hover
+  - maybe show impress.js svg on one side, zoom in for detail; png on the other side, zoom in for pixelation
+  - maybe expand JPG, PNG, GIF, then SVG
