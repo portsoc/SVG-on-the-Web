@@ -23,6 +23,8 @@
 
   </style>
 
+  <!-- coordinates go from top-left to the right and down -->
+
   <rect x="0" y="0" width="500" height="500"/>
 
   <circle cx="350" cy="250" r="100"/>
