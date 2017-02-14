@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" version="1.1">
  <g id="g4" fill="none" transform="matrix(1.7656463,0,0,1.7656463,324.90716,255.00942)"
-    onclick="click()">
+    onclick="zoom()">
   <g id="g6" stroke-width="0.17200001" stroke="#000" fill="#FFF">
    <path id="path8" d="m-122.3,84.285s0.1,1.894-0.73,1.875c-0.82-0.019-17.27-48.094-37.8-45.851,0,0,17.78-7.353,38.53,43.976z"/>
   </g>
@@ -838,7 +838,6 @@
       transition: all 5s cubic-bezier(.3,0,.3,1);
       transform: translate(42px, 20.5px) scale(.044) ;
     }
-    <view id="eye"    viewBox="380.00 279.00  52.00  41.00"/>
   </style>
   <script>
     'use strict';
@@ -856,7 +855,7 @@
     setZooming();
     window.addEventListener('hashchange', setZooming);
 
-    function click() {
+    function zoom() {
       if (g4.classList.contains('zoomed')) {
         g4.classList.remove('zoomed');
       } else {

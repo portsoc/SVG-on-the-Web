@@ -2,13 +2,16 @@ SVG on the Web
 ====
 
 0. prep
+  - tab with presentation https://docs.google.com/presentation/d/1EmAJWl0sZBjFZPICr0r6wCzf5aBy7NUScxa--86HrUo
   - tab with tiger bitmap
   - tab with tiger.svg#eye
   - tab with tiger.svg
   - editor with sticks1.svg - close fold on `<style>`
+  - readable high-contrast theme
   - window with music png
   - window with music jpg
   - tab with music svgz
+  - inkscape
 
 
 2. scalable vector graphics
@@ -58,16 +61,15 @@ SVG on the Web
   - show sticks1.svg, uncomment and tweak body and limbs
   - also, there are comments in the file!
   - include sticks1 in html: sticks1.html
-  - but the style doesn't work
+  - but can't style it from html
 - Embedding in HTML5
   - sticks2.html
-  - make sure to validate
+  - make sure to validate, also change "line" to "lines" and show validator catches that
   - notice style is outside
   - and has an interaction with hover
 - Styling with CSS when embedded
   - show sticks3.svg
-  - show interactive buttons
-  - play a bit with style
+  - play a bit with style in the file
   - include sticks3 in HTML: sticks3.html
   - show interactive buttons
   - control style from javascript

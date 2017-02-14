@@ -26,6 +26,19 @@
     .worker.w1  { opacity: 0; }
     .worker.w2  { opacity: 0; }
     .worker.w3  { opacity: 0; }
+
+    .worker.q2  { opacity: 0; }
+    .worker.q3  { opacity: 0; }
+    .worker.q   { opacity: 0; }
+
+    .person.p1  { opacity: 0; }
+    .person.p2  { opacity: 0; }
+    .person.q2  { opacity: 0; }
+    .person.q3  { opacity: 0; }
+
+    <!-- .monitor { fill: black; stroke: white; } -->
+    <!-- .desk { fill: #ccac90; } -->
+    <!-- .head { fill: #88f; } -->
   </style>
 
   <defs>
@@ -38,11 +51,11 @@
 
         <!-- desk -->
         <!--     leg  leg   -->
-        <path d="M0,0 v-150 l120,60 v30 v-30 l180,90 v150 v-150 l120,-60 v150 v-150 l-300,-150 l-120,60"/>
+        <path class="desk" d="M0,0 v-150 l120,60 v30 v-30 l180,90 v150 v-150 l120,-60 v150 v-150 l-300,-150 l-120,60"/>
 
         <!-- monitor base -->
         <!--     leg  corner  middle-mon100 edge-offset middley-base40 depth-offset -->
-        <path d="M0,0 m0,-150 m100,50       m30,-15     m30,15         m-10,5       l40,20 l20,-10 l-40,-20 l-20,10"/>
+        <path class="monitor" d="M0,0 m0,-150 m100,50       m30,-15     m30,15         m-10,5       l40,20 l20,-10 l-40,-20 l-20,10"/>
 
         <!-- keyboard -->
         <!--     leg  corner  middle-mon100 depth-offset -->
@@ -50,16 +63,16 @@
 
         <!-- person - upper body -->
         <!--     leg  corner  far-corner middle  body-offset shoulders neck  head-->
-        <path d="M0,0 m0,-150 m120,-60   m150,75 m30,-15     m0,-50    v-10  a 1,1 0 0,0 -20,-70 a 1,1 0 0,0 20,70 "/>
+        <path class="head" d="M0,0 m0,-150 m120,-60   m150,75 m30,-15     m0,-50    v-10  a 1,1 0 0,0 -20,-70 a 1,1 0 0,0 20,70 "/>
         <!--     leg  corner  far-corner middle  body-offset shoulders left arm                         right arm -->
         <path d="M0,0 m0,-150 m120,-60   m150,75 m30,-15     m0,-50    l10,65 l-50,25 l50,-25 l-10,-65  l-50,35 l-50,25 l50,-25 l50,-35"/>
 
         <!-- monitor -->
         <!--     leg  corner  middle-mon100 edge-offset height  -->
-        <path d="M0,0 m0,-150 m100,50       m30,-15     m0,-10 v-100 l100,50 v100 l-100,-50"/>
+        <path class="monitor" d="M0,0 m0,-150 m100,50       m30,-15     m0,-10 v-100 l100,50 v100 l-100,-50"/>
         <!-- monitor support -->
         <!--     leg  corner  middle-mon100 edge-offset height middley-stand28 middlex-stand28 depth-offset -->
-        <path d="M0,0 m0,-150 m100,50       m30,-15     m0,-10 m0,-36          m36,18          m-10,5       v46 l28,14 v-46 v-28 l-28,-14 v28"/>
+        <path class="monitor" d="M0,0 m0,-150 m100,50       m30,-15     m0,-10 m0,-36          m36,18          m-10,5       v46 l28,14 v-46 v-28 l-28,-14 v28"/>
       </g>
     </g>
     <g id="person-by-desk" class='normal'>
