@@ -6,6 +6,9 @@ SVG on the Web
   - tab with tiger.svg#eye
   - tab with tiger.svg
   - editor with sticks1.svg - close fold on `<style>`
+  - window with music png
+  - window with music jpg
+  - tab with music svgz
 
 
 2. scalable vector graphics
