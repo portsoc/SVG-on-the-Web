@@ -66,9 +66,13 @@ SVG on the Web
   - show interactive buttons
   - play a bit with style
   - include sticks3 in HTML: sticks3.html
-- Embedding in CSS (to be done)
+  - show interactive buttons
+  - control style from javascript
+- Embedding SVG in CSS
+  - show star.svg
   - a little star
   - CSS puts it where it wants
+  - show stars.html
 - why svg:
   - scalability of vector graphics
   - size of image

@@ -1,0 +1,40 @@
+<!doctype html>
+<title>Stars embedded in CSS</title>
+<style>
+  h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
+    content: ' ';
+    background-image: url("data:image/svg+xml;utf8,<svg height='26' width='26' xmlns='http://www.w3.org/2000/svg'><polygon points='20,24 13,18 6,24 9,15 2,10 10,10 13,2 16,10 24,10 17,15' style='fill:#ff4;stroke:#b92;' /></svg>");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: baseline;
+    transform: translate(0,8%);
+    padding-right: .2em;
+    height: .8em;
+    width: .8em;
+  }
+
+  body {
+    max-width: 30em;
+    margin-left: 2em;
+  }
+</style>
+
+
+<h1>Stars embedded in CSS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet, orci sit amet vulputate fringilla, nisi ligula dapibus lectus, tincidunt feugiat massa ipsum sed nunc.</p>
+
+<h2>test H2</h2>
+<p>Maecenas aliquet ornare lacus non facilisis. Vivamus sit amet nulla bibendum, maximus enim non, fringilla orci.</p>
+
+<h3>test H3</h3>
+<p>Donec nulla leo, ultricies vel sem vel, vulputate venenatis ex. Quisque ac ullamcorper orci, ac gravida nisi.</p>
+
+<h4>test H4</h4>
+<p>Fusce sed bibendum arcu. Quisque non felis augue.</p>
+
+<h5>test H5</h5>
+<p>Suspendisse potenti. Proin placerat, nisl non fermentum ornare, nisi nibh tempor mi, sed bibendum neque augue a justo.</p>
+
+<h6>test H6</h6>
+<p>Vivamus placerat dolor id enim interdum, non finibus mi porta. Praesent diam nisl, convallis ac erat sed, venenatis sagittis metus.</p>
