@@ -29,6 +29,7 @@
     }
 
     .pompey { stroke: #468; }
+    circle.pompey { fill: #468; }
     .york { stroke: #846; }
 
     text.pompey { fill: #468; }
@@ -84,23 +85,64 @@ york:
 2011 202400
 -->
 
-  <text x="1" y="10" class="axis"> 1801 </text>
-  <text x="51" y="10" class="axis"> 1851 </text>
-  <text x="101" y="10" class="axis"> 1901 </text>
-  <text x="151" y="10" class="axis"> 1951 </text>
-  <text x="201" y="10" class="axis"> 2001 </text>
+  <text x="2" y="10" class="axis"> 1800 </text>
+  <text x="52" y="10" class="axis"> 1850 </text>
+  <text x="102" y="10" class="axis"> 1900 </text>
+  <text x="152" y="10" class="axis"> 1950 </text>
+  <text x="202" y="10" class="axis"> 2000 </text>
 
-  <text x="1" y="-52" class="axis"> 50k </text>
-  <text x="1" y="-102" class="axis"> 100k </text>
-  <text x="1" y="-152" class="axis"> 150k </text>
-  <text x="1" y="-202" class="axis"> 200k </text>
-  <text x="1" y="-252" class="axis"> 250k </text>
+  <text x="2" y="-54" class="axis"> 50k </text>
+  <text x="2" y="-104" class="axis"> 100k </text>
+  <text x="2" y="-154" class="axis"> 150k </text>
+  <text x="2" y="-204" class="axis"> 200k </text>
+  <text x="2" y="-254" class="axis"> 250k </text>
 
-  <text x="200" y="-260" class="pompey" > Pompey </text>
-  <text x="200" y="-235" class="york" > York </text>
+  <text x="170" y="-235" class="pompey" > Pompey </text>
+  <text x="200" y="-150" class="york" > York </text>
 
-  <path class="pompey" d="M 1,-32.160 L 51,-72.096 L 101,-188.133 L 151,-233.545 L 161,-215.077 L 171,-197.431 L 181,-175.382 L 191,-177.142 L 201,-186.700 L 211,-205.400"/>
-  <path class="york" d="M 1,-24.080 L 11,-27.486 L 21,-30.913 L 31,-36.340 L 41,-40.337 L 51,-49.899 L 61,-58.632 L 71,-67.364 L 81,-76.097 L 91,-81.802 L 101,-90.665 L 111,-100.487 L 121,-106.278 L 131,-112.402 L 141,-123.227 L 151,-135.093 L 161,-144.585 L 171,-154.749 L 181,-158.170 L 191,-172.847 L 201,-181.131 L 211,-202.400"/>
+  <path class="pompey" d="M 1,-32.160
+                          L 51,-72.096
+                          L 101,-188.133
+                          L 151,-233.545
+                          L 161,-215.077
+                          L 171,-197.431
+                          L 181,-175.382
+                          L 191,-177.142
+                          L 201,-186.700
+                          L 211,-205.400"/>
+  <path class="york" d="M 1,-24.080
+                        L 11,-27.486
+                        L 21,-30.913
+                        L 31,-36.340
+                        L 41,-40.337
+                        L 51,-49.899
+                        L 61,-58.632
+                        L 71,-67.364
+                        L 81,-76.097
+                        L 91,-81.802
+                        L 101,-90.665
+                        L 111,-100.487
+                        L 121,-106.278
+                        L 131,-112.402
+                        L 141,-123.227
+                        L 151,-135.093
+                        L 161,-144.585
+                        L 171,-154.749
+                        L 181,-158.170
+                        L 191,-172.847
+                        L 201,-181.131
+                        L 211,-202.400"/>
+
+  <circle class="pompey" cx="1"   cy="-032.160" r="3"/>
+  <circle class="pompey" cx="51"  cy="-072.096" r="3"/>
+  <circle class="pompey" cx="101" cy="-188.133" r="3"/>
+  <circle class="pompey" cx="151" cy="-233.545" r="3"/>
+  <circle class="pompey" cx="161" cy="-215.077" r="3"/>
+  <circle class="pompey" cx="171" cy="-197.431" r="3"/>
+  <circle class="pompey" cx="181" cy="-175.382" r="3"/>
+  <circle class="pompey" cx="191" cy="-177.142" r="3"/>
+  <circle class="pompey" cx="201" cy="-186.700" r="3"/>
+  <circle class="pompey" cx="211" cy="-205.400" r="3"/>
 
   <circle class="york"   cx="1"   cy="-024.080" r="3"/>
   <circle class="york"   cx="11"  cy="-027.486" r="3"/>
@@ -124,16 +166,5 @@ york:
   <circle class="york"   cx="191" cy="-172.847" r="3"/>
   <circle class="york"   cx="201" cy="-181.131" r="3"/>
   <circle class="york"   cx="211" cy="-202.400" r="3"/>
-
-  <circle class="pompey" cx="1"   cy="-032.160" r="3"/>
-  <circle class="pompey" cx="51"  cy="-072.096" r="3"/>
-  <circle class="pompey" cx="101" cy="-188.133" r="3"/>
-  <circle class="pompey" cx="151" cy="-233.545" r="3"/>
-  <circle class="pompey" cx="161" cy="-215.077" r="3"/>
-  <circle class="pompey" cx="171" cy="-197.431" r="3"/>
-  <circle class="pompey" cx="181" cy="-175.382" r="3"/>
-  <circle class="pompey" cx="191" cy="-177.142" r="3"/>
-  <circle class="pompey" cx="201" cy="-186.700" r="3"/>
-  <circle class="pompey" cx="211" cy="-205.400" r="3"/>
 
 </svg>
