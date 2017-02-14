@@ -38,10 +38,10 @@ SVG on the Web
 
 
 - What is SVG?
-  - show tiger.jpg (from http://www.motherrisingbirth.com/2011/11/349.html via https://www.pinterest.com/pin/479492691550183760/)
+  - show tiger.jpg
   - zoom in on an eye, pixels show
   - how big is the file? 97k
-  - switch to drawing tiger.svg#eye (from http://commons.wikimedia.org/wiki/File:Ghostscript_Tiger.svg)
+  - switch to drawing tiger.svg#eye
   - note the huge resolution for just the eye
   - click to zoom out
   - how big is the file? 69k
@@ -89,17 +89,9 @@ SVG on the Web
 - diagram
   - get population data for Portsmouth, York from wikipedia
   - only from 1801
-- todo:
+
+
+
+- todo
   - graceful degradation
-  - using svg for diagrams
-
-
-- next time:
-  - show a title (SVG) and the expansion of it
-  - show the spec
-  - show the coordinate system
-    - this can be tested - given this code, which picture do you think will come out?
   - start with stick figures with inline style: `<line stroke=...>` and then move on to using CSS, separating style from content
-  - make sure to show :hover
-  - maybe show impress.js svg on one side, zoom in for detail; png on the other side, zoom in for pixelation
-  - maybe expand JPG, PNG, GIF, then SVG
