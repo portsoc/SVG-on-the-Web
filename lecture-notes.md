@@ -5,9 +5,10 @@ SVG on the Web
   - tab with presentation https://docs.google.com/presentation/d/1EmAJWl0sZBjFZPICr0r6wCzf5aBy7NUScxa--86HrUo
   - tab with tiger bitmap
   - tab with tiger.svg#eye
-  - tab with tiger.svg
+  - tab with tiger.html
+  - readable high-contrast editor theme
+  - editor with sticks0.svg
   - editor with sticks1.svg - close fold on `<style>`
-  - readable high-contrast theme
   - window with music png
   - window with music jpg
   - tab with music svgz
@@ -37,12 +38,14 @@ SVG on the Web
 
 
 - What is SVG?
-  - picture of an awesome tiger, huge tiger.svg from http://commons.wikimedia.org/wiki/File:Ghostscript_Tiger.svg
-    - tiger.svg#eye
-  - zoom out
+  - show tiger.jpg (from http://www.motherrisingbirth.com/2011/11/349.html via https://www.pinterest.com/pin/479492691550183760/)
+  - zoom in on an eye, pixels show
+  - how big is the file? 97k
+  - switch to drawing tiger.svg#eye (from http://commons.wikimedia.org/wiki/File:Ghostscript_Tiger.svg)
+  - note the huge resolution for just the eye
+  - click to zoom out
   - how big is the file? 69k
   - vector vs bitmap
-  - compare with tiger.jpg from http://www.motherrisingbirth.com/2011/11/349.html via https://www.pinterest.com/pin/479492691550183760/
 - Tools
   - inkscape https://inkscape.org/en/
   - draw a stickman
@@ -50,13 +53,13 @@ SVG on the Web
   - and a shaded head
   - drawing tools are boring
 - Image file
-  - show tiger
-  - include tiger in HTML in tiger.html
-  - look in tiger.svg
+  - switch to tiger.html tab
+  - show source that includes tiger in <img>
+  - look in tiger.svg, recognize some bits from HTML
   - change last #FFF on element with id g54 to #F00
 - Basic SVG
   - spec http://www.w3.org/TR/SVG/
-  - show sticks0.svg
+  - show sticks0.svg and play with it
   - look at style
   - show sticks1.svg, uncomment and tweak body and limbs
   - also, there are comments in the file!
