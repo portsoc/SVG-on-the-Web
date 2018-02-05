@@ -724,6 +724,7 @@
   </g>
  </g>
 
+ <view id="zooming" viewBox="380.00 279.00  52.00  41.00"/>
  <view id="eye"    viewBox="380.00 279.00  52.00  41.00"/>
  <view id="eye1"   viewBox="376.20 276.21  60.48  49.59"/>
  <view id="eye2"   viewBox="372.40 273.42  68.96  58.18"/>
@@ -845,7 +846,7 @@
     var g4 = document.getElementById('g4');
 
     function setZooming() {
-      if (window.location.hash === '#eye') {
+      if (window.location.hash === '#zooming') {
         g4.classList.add('zooming');
       } else {
         g4.classList.remove('zooming');

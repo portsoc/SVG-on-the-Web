@@ -1,0 +1,48 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg {
+        stroke-width: 5px;
+        fill: white;
+        stroke: black;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .blush:hover {
+      stroke: red;
+      fill: pink;
+    }
+
+    text {
+      stroke-width: 0;
+      fill: black;
+    }
+
+    a {
+      stroke: blue;
+      fill: white;
+    }
+
+    a text {
+      fill: blue;
+    }
+  </style>
+
+  <!-- head and body -->
+  <circle cx="250" cy="100" r="60" class="blush" />
+  <line x1="250" y1="160" x2="250" y2="320" />
+
+  <!-- arms -->
+  <line x1="250" y1="160" x2="180" y2="320" />
+  <line x1="250" y1="160" x2="320" y2="320" />
+
+  <!-- legs -->
+  <line x1="250" y1="320" x2="180" y2="480" />
+  <line x1="250" y1="320" x2="320" y2="480" />
+
+  <!-- hyperlink -->
+  <a href="https://en.wikipedia.org/wiki/Stick_figure">
+    <polyline points="340,440 355,470 365,460 375,470 390,440" />
+    <text x="365" y="445" text-anchor="middle" >wiki</text>
+  </a>
+</svg>

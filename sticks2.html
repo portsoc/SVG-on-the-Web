@@ -2,39 +2,31 @@
 <title>Sticks 2</title>
 <style>
   svg {
-      stroke-width: 5;
+      stroke-width: 5px;
       fill: white;
       stroke: black;
       stroke-linecap: round;
       stroke-linejoin: round;
   }
 
-  line { stroke: red; }
-
-  circle:hover { fill: #fbb; }
-
-  h1:hover { color: #0ff; }
+  .blush:hover {
+    stroke: red;
+    fill: pink;
+  }
 </style>
 
 <h1>SVG Stick figure image in HTML, with style</h1>
 
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 0 500 500"
-  width="500"
-  height="500"
-  version="1.1"
-  >
-
-  <circle cx="250" cy="100" r="60"/>
-  <line x1="250" y1="160" x2="250" y2="320"/>
+<svg width=500 height=500>
+  <!-- head and body -->
+  <circle cx=250 cy=100 r=60 class=blush />
+  <line x1=250 y1=160 x2=250 y2=320 />
 
   <!-- arms -->
-  <line x1="250" y1="160" x2="180" y2="320"/>
-  <line x1="250" y1="160" x2="320" y2="320"/>
+  <line x1=250 y1=160 x2=180 y2=320 />
+  <line x1=250 y1=160 x2=320 y2=320 />
 
   <!-- legs -->
-  <line x1="250" y1="320" x2="180" y2="480"/>
-  <line x1="250" y1="320" x2="320" y2="480"/>
+  <line x1=250 y1=320 x2=180 y2=480 />
+  <line x1=250 y1=320 x2=320 y2=480 />
 </svg>
